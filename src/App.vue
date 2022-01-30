@@ -7,24 +7,24 @@
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-#nav {
-  padding: 30px;
-}
+  html {
+    font-family: sans-serif;
+  }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  body {
+    margin: 0;
+  }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+  .container {
+    margin: 3rem auto;
+    max-width: 30rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    padding: 1rem;
+    text-align: center;
 }
 </style>
