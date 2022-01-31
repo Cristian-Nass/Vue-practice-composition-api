@@ -26,7 +26,7 @@ export default defineComponent({
 
     // setTimeout(() => {
     //   userName.value = 'Nasirabdi'
-    // }, 1000);
+    // }, 1000); 
 
     setTimeout(() => {
       user.age = 38
